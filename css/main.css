@@ -16,3 +16,80 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+  background-color: #D2D0CD;
+}
+
+.header-banner {
+  position: relative;
+}
+
+.header-img {
+  max-width: 100%;
+}
+
+.header-h1 {
+  display: inline;
+  position: absolute;
+  bottom: 3rem;
+  line-height: 1.1em;
+  font-weight: bold;
+  font-size: 2.5em;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  -webkit-text-stroke: 2px black;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  text-decoration: none;
+  padding: 3px;
+}
+
+a {
+  margin: 0 auto;
+  display: block;
+  padding: 4px;
+  text-decoration: none;
+  border-style: solid;
+  border-radius: 3px;
+  border-color: black;
+  max-width: 50%;
+  text-align: center;
+  color: black;
+  background-color: #fff;
+}
+
+.header-h2 {
+  text-align: center;
+}
+
+h2,
+.h2-p {
+  margin: 0;
+}
+
+.main-pics {
+  text-align: center;
+}
+
+.h3-img {
+  max-width: 95%;
+  margin: 0 auto;
+  display: block;
+}
+
+h3 {
+  margin: 0;
+}
+
+.founder {
+  text-align: center;
+  display: block;
+}
