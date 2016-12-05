@@ -19,7 +19,7 @@ html {
 
 body {
   margin: 0;
-  background-color: #D2D0CD;
+  background-color: #d2d0cd;
 }
 
 .header-banner {
@@ -33,14 +33,15 @@ body {
 .header-h1 {
   display: inline;
   position: absolute;
-  bottom: 3rem;
-  line-height: 1.1em;
+  bottom: 2.5rem;
+  line-height: 1.1;
   font-weight: bold;
-  font-size: 2.5em;
+  font-size: 2.8em;
   color: #fff;
   text-align: center;
   margin: 0;
-  -webkit-text-stroke: 2px black;
+  -webkit-text-stroke: 1px black;
+  font-family: "Shrikhand", cursive;
 }
 
 ul {
@@ -89,7 +90,27 @@ h3 {
   margin: 0;
 }
 
+h4 {
+  margin: 1em;
+  display: inline-block;
+}
+
 .founder {
   text-align: center;
   display: block;
+}
+
+.founder-figure {
+  margin: 0 auto;
+}
+
+.founder-cap {
+  margin: 1em;
+  text-align: center;
+}
+
+.footer-copy {
+  text-align: center;
+  display: block;
+  margin-bottom: 0;
 }
