@@ -65,6 +65,8 @@ a {
   text-align: center;
   color: black;
   background-color: #fff;
+  font-family: sans-serif;
+  font-weight: 100;
 }
 
 .header-h2 {
@@ -104,9 +106,33 @@ h4 {
   margin: 0 auto;
 }
 
+.founder-img {
+  height: 225px;
+  width: 225px;
+}
+
 .founder-cap {
   margin: 1em;
   text-align: center;
+}
+
+.links {
+  text-align: center;
+}
+
+.link-card {
+  text-align: center;
+  display: inline-block;
+  margin: .5em;
+}
+
+.card-img {
+  width: 50px;
+  height: 50px;
+}
+
+.card-body {
+  font-size: .8em;
 }
 
 .footer-copy {
