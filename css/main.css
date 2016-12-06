@@ -19,7 +19,7 @@ html {
 
 body {
   margin: 0;
-  background-color: #d2d0cd;
+  background-color: #9fc;
 }
 
 .header-banner {
@@ -37,7 +37,7 @@ body {
   line-height: 1.1;
   font-weight: bold;
   font-size: 2.8em;
-  color: #fff;
+  color: #9fc;
   text-align: center;
   margin: 0;
   -webkit-text-stroke: 1px black;
@@ -69,6 +69,10 @@ a {
   font-weight: 100;
 }
 
+a:hover {
+  background-color: #fcf;
+}
+
 .header-h2 {
   text-align: center;
 }
@@ -76,6 +80,7 @@ a {
 h2,
 .h2-p {
   margin: 0;
+  font-weight: 500;
 }
 
 .main-pics {
@@ -90,11 +95,13 @@ h2,
 
 h3 {
   margin: 0;
+  font-weight: 400;
 }
 
 h4 {
   margin: 1em;
   display: inline-block;
+  font-weight: 600;
 }
 
 .founder {
@@ -114,6 +121,7 @@ h4 {
 .founder-cap {
   margin: 1em;
   text-align: center;
+  font-weight: 100;
 }
 
 .links {
@@ -133,6 +141,7 @@ h4 {
 
 .card-body {
   font-size: .8em;
+  font-weight: 600;
 }
 
 .footer-copy {
