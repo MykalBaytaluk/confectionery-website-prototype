@@ -33,12 +33,12 @@ body {
 .header-h1 {
   display: inline;
   position: absolute;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
   line-height: 1.1;
   font-weight: bold;
-  font-size: 2.8em;
+  font-size: 11vw;
   color: #9fc;
   text-align: center;
   margin: 0;
@@ -48,6 +48,7 @@ body {
 
 ul {
   padding: 0;
+  text-align: center;
 }
 
 li {
@@ -59,7 +60,7 @@ li {
 a {
   margin: 0 auto;
   display: inline-block;
-  padding: 4px;
+  padding: .7em;
   text-decoration: none;
   border-style: solid;
   border-radius: 6px;
@@ -70,6 +71,7 @@ a {
   background-color: #fff;
   font-family: sans-serif;
   font-weight: 100;
+  font-size: larger;
 }
 
 nav a:hover {
@@ -176,7 +178,6 @@ h4 {
 
   .header-h1 {
     width: 62%;
-    font-size: 3.2rem;
   }
 
 }
@@ -188,13 +189,21 @@ h4 {
     line-height: 1.4;
   }
 
+  li {
+    display: inline-block;
+    width: auto;
+  }
+
+  a {
+    width: auto;
+  }
+
   .header-banner {
     position: relative;
   }
 
   .header-h1 {
     width: 62%;
-    font-size: 4.2rem;
   }
 
   .founder-img {
@@ -217,15 +226,17 @@ h4 {
 
   .header-h1 {
     width: 75%;
-    font-size: 7.8rem;
     -webkit-text-stroke: 2.3px black;
+  }
+
+  h2 {
+    font-size: 3.6rem;
   }
 
   .founder-img {
     height: 250px;
     width: 250px;
     float: left;
-    width: 50%;
   }
 
   .founder-cap {
@@ -241,10 +252,15 @@ h4 {
     font-size: 130%;
   }
 
+  h2 {
+    font-size: 4.6rem;
+  }
+
   .header-banner {
     position: relative;
 
   }
+
   .header-h1 {
     width: 100%;
   }
