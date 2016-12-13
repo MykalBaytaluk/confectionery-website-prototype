@@ -94,7 +94,11 @@ h2,
 }
 
 .h2-p {
-  padding-top: 1em;
+  padding: 1em;
+}
+
+.h2-p b {
+  display: block;
 }
 
 .main-pics {
@@ -212,6 +216,10 @@ h4 {
     width: 62%;
   }
 
+  .h2-p b {
+    display: inline-block;
+  }
+
   .founder-img {
     height: 350px;
     width: 350px;
@@ -240,7 +248,7 @@ h4 {
   }
 
   .founder-figure {
-    width: 70%;
+    max-width: 40em;
     margin: 0 auto;
     padding-bottom: 2em;
     overflow: hidden;
