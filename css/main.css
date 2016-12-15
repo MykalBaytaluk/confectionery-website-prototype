@@ -272,6 +272,7 @@ h4 {
 
   html {
     font-size: 130%;
+    text-align: center;
   }
 
   h2 {
@@ -285,6 +286,11 @@ h4 {
 
   .header-h1 {
     width: 100%;
+  }
+
+  .main-pics {
+    display: inline-block;
+    width: 25%;
   }
 
   .founder-figure {
